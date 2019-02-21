@@ -1,0 +1,45 @@
+body{
+      background-image:url("/home/itsec2/Downloads/razer-logo.png");
+      background-repeat:repeat;
+      background-color:black;
+background-attachment:fixed;
+
+
+}
+#redtxt{color:white;
+        font-family:Palatino;
+	
+	font-style:italic;
+	font-size:150px;}
+ p{border-style:solid;border-color:green;text-shadow:5px 5px 2px white ;margin: 25px 50px 75px 100px;padding:100px 100px 100px 100px;background-color:black;display:block; background-image:url("/home/itsec2/Downloads/razer-logo.png");}
+bluetxt{font-color:white;font-weight:bold;}
+a.level:visited{color:lime;text-transform:uppercase;text-shadow:5px 5px blue;font-weight:normal;}
+a.gfr:link{color:lime;}
+a.largesize:hover{color:lime;}
+a.act:active{color:lime;}
+h1{color:lime;font-weight:normal;text-transform:uppercase;text-shadow:5px 5px 2px red;border-style:outset;border-width:10px;border-color:white;opacity:1;}
+P{font-size:35px;font-weight:bold;margin:5%;}
+
+p:hover{background-color:lime;}
+p{
+background-image: radial-gradient(green 25%, black 65%, lime 10%);
+}
+P{opacity:1;}
+p{transition:transform 10s;
+
+transform:rotate(360deg);
+}
+h1{
+positon:relative;
+
+   background:red;
+   
+  animation-name: example;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+}
+@keyframes example
+{
+  from {background-color: lime;}
+  to {background-color: black;}
+}
